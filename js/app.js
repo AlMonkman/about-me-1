@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 //Greeting
 let userName = prompt('What\'s your name?');
@@ -75,3 +75,39 @@ if (askJavascript.toLowerCase() === 'yes' || askJavascript.toLowerCase() ==='y')
   //console.log('"Yes" or "No" answers only, please!');
   alert('"Yes" or "No" answers only!' + ' Thank you, ' + userName + '.');
 }
+
+/*   Sixth Question - Use FOR or WHILE LOOP
+1. Prompt user to guess a number.
+2. Indicate with alert if guess is "too high" or "too low."
+3. Give user four chances to guess correctly.
+4. After 4 chances, tell user the right answer.
+*/
+
+let attemptsLeft = 4;
+while (attemptsLeft > 0) {
+  let guessNumber = Number(prompt('Guess a number between 1-10'));
+  if (guessNumber > 5) {
+    alert(`Too high! You have ${attemptsLeft - 1} attempts left!`);
+  } else if (guessNumber < 5) {
+    alert(` Too low! You have ${attemptsLeft - 1} attempts left!`);
+  } else {
+    alert('You guessed right!');
+    break;
+  }
+  attemptsLeft--;
+  if (attemptsLeft === 0) {
+    alert('You ran out of tries. The answer is 5.');
+  }
+}
+
+
+
+/* Seventh Question - FOR or WHILE LOOP
+1. Add question that has multiple correct answers stored in an array.
+2. Give user 6 chances to guess the right answer.
+3. Guesses end when user guesses right answer or run out of attempts.
+4. Display all possible correct answers to user.
+*/
+
+// Keep track of total number of correct answers.
+// At the end, tell them how many they got correct out of the 7 questions asked

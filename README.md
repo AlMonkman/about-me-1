@@ -40,3 +40,7 @@ To the naked eye, my code looks more efficient and should work. WRONG.
 ### **How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?**
 <br>
 I spent probably 45 minutes to an hour debugging that one line. Writing the rest of the Javascript code took maybe 20 minutes. I didn't do it all in one sitting or try and rush through it. I spent a lot more time going over the assignment's requirements and it definitely took longer than I thought. Just writing and formatting a simple READ ME file takes time if you do it right.
+
+<br>
+
+## New features added:
