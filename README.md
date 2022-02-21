@@ -44,3 +44,7 @@ I spent probably 45 minutes to an hour debugging that one line. Writing the rest
 <br>
 
 ## New features added:
+
+The project has been updated to include a number guessing game along with a game trying to guess my favorite movies. 
+
+To accomplish this, work had to be done involving storing data with arrays, as well as using different FOR and WHILE LOOPS to rerun several lines of code efficiently.

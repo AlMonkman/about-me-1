@@ -115,7 +115,7 @@ while (attemptsLeft > 0) {
 
 
 let favMovies = ['Scent of a Woman', 'Gattaca', 'The Devil\'s Advocate', 'Cinderella Man', 'Braveheart', 'V for Vendetta', 'Goodfellas', 'Casino', 'Training Day', 'Batman Begins'];
-// let answeredCorrectly = false;
+
 let attemptsLeft1 = 6;
 let correctAttempts = 0;
 
