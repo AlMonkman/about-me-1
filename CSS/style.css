@@ -3,24 +3,27 @@ header {
   margin-left: 30px;
 }
 
-h1 {
-  font-size: 48px;
-  
+#round1 {
+    border-radius: 4px;
+    font-size: 48px;
+    margin: auto;
 }
 
 p {
   font-size: 25px;
   margin: 40px;
 }
+p, ul {
+  font-size: 25px;
+  margin: 40px;
+}
 
 body {
-  background-color: navy;
+  background-color: rgb(7, 7, 85);
   color: white
 }
 
-li {
-  font-size: 25px;
+#movies {
+  font-size: 20px;
   margin: 40px;
-  padding: 20px
-  border: 20px
 }
