@@ -5,6 +5,9 @@ let userName = prompt('What\'s your name?');
 //console.log('asking for userName');
 alert('Hey there, ' + userName + '! ' + 'Welcome to my site!');
 
+firstQuestion();
+
+function firstQuestion(){
 // First Question
 let askTexas = prompt('Am I from Texas?');
 
@@ -18,7 +21,7 @@ if (askTexas.toLowerCase() === 'yes' || askTexas.toLowerCase() ==='y') {
   //console.log('"Yes" or "No" answers only, please!');
   alert('"Yes" or "No" answers only, please!');
 }
-
+}
 // Second Question
 let askAvocado = prompt('Do I like avocados?');
 
