@@ -7,6 +7,7 @@ alert('Hey there, ' + userName + '! ' + 'Welcome to my site!');
 
 firstQuestion();
 secondQuestion();
+thirdQuestion();
 
 function firstQuestion(){
 // First Question
@@ -39,6 +40,8 @@ if (askAvocado.toLowerCase() === 'yes' || askAvocado.toLowerCase() ==='y') {
   alert('"Yes" or "No" answers only, please!');
 }
 }
+
+function thirdQuestion(){
 // Third Question
 let askMac = prompt('Are Macintosh computers too expensive?');
 
@@ -52,7 +55,7 @@ if (askMac.toLowerCase() === 'yes' || askMac.toLowerCase() ==='y') {
   //console.log('"Yes" or "No" answers only, please!');
   alert('"Yes" or "No" answers only, please!');
 }
-
+}
 // Fourth Question
 let askPoker = prompt('Is Texas Hold \'em a fun game?');
 
