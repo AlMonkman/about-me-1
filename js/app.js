@@ -6,6 +6,7 @@ let userName = prompt('What\'s your name?');
 alert('Hey there, ' + userName + '! ' + 'Welcome to my site!');
 
 firstQuestion();
+secondQuestion();
 
 function firstQuestion(){
 // First Question
@@ -22,6 +23,8 @@ if (askTexas.toLowerCase() === 'yes' || askTexas.toLowerCase() ==='y') {
   alert('"Yes" or "No" answers only, please!');
 }
 }
+
+function secondQuestion(){
 // Second Question
 let askAvocado = prompt('Do I like avocados?');
 
@@ -35,7 +38,7 @@ if (askAvocado.toLowerCase() === 'yes' || askAvocado.toLowerCase() ==='y') {
   //console.log('"Yes" or "No" answers only, please!');
   alert('"Yes" or "No" answers only, please!');
 }
-
+}
 // Third Question
 let askMac = prompt('Are Macintosh computers too expensive?');
 
