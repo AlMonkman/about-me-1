@@ -8,6 +8,7 @@ alert('Hey there, ' + userName + '! ' + 'Welcome to my site!');
 firstQuestion();
 secondQuestion();
 thirdQuestion();
+fourthQuestion();
 
 function firstQuestion(){
 // First Question
@@ -56,6 +57,8 @@ if (askMac.toLowerCase() === 'yes' || askMac.toLowerCase() ==='y') {
   alert('"Yes" or "No" answers only, please!');
 }
 }
+
+function fourthQuestion(){
 // Fourth Question
 let askPoker = prompt('Is Texas Hold \'em a fun game?');
 
@@ -69,7 +72,7 @@ if (askPoker.toLowerCase() === 'yes' || askPoker.toLowerCase() ==='y') {
   //console.log('"Yes" or "No" answers only, please!');
   alert('"Yes" or "No" answers only, please!');
 }
-
+}
 
 // Fifth Question
 let askJavascript = prompt('Do you really think I like learning Javascript?');
