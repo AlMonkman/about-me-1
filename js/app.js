@@ -10,6 +10,7 @@ secondQuestion();
 thirdQuestion();
 fourthQuestion();
 fifthQuestion();
+sixthQuestion();
 
 function firstQuestion() {
   // First Question
@@ -90,6 +91,8 @@ function fifthQuestion() {
     alert('"Yes" or "No" answers only!' + ' Thank you, ' + userName + '.');
   }
 }
+
+function sixthQuestion(){
 /*   Sixth Question - Use FOR or WHILE LOOP
 1. Prompt user to guess a number.
 2. Indicate with alert if guess is "too high" or "too low."
@@ -114,7 +117,7 @@ while (attemptsLeft > 0) {
     alert('You ran out of tries. The answer is 5.');
   }
 }
-
+}
 
 
 /* Seventh Question - FOR or WHILE LOOP
